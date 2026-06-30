@@ -18,7 +18,24 @@ Do not include any text before or after the JSON.
 Use the submitted topic, audience, service, location, business type, main angle, suggested keyword, internal page, preferred tone, image style, call to action, and any other form details provided by Zapier.
 
 ## Output Rules
+## Strict JSON Formatting Rules
 
+Return only machine-readable JSON.
+
+The response must be valid JSON that can be parsed by JSON.parse().
+
+Rules:
+- Use straight double quotes only.
+- Do not use markdown.
+- Do not use code fences.
+- Do not include comments.
+- Do not include trailing commas.
+- Do not include line breaks inside string values.
+- Do not use unescaped double quotes inside text values.
+- If quotation marks are needed inside text, use apostrophes instead.
+- Use only normal ASCII characters where possible.
+- Use 1200x628, not 1200×628.
+- Return one complete JSON object only.
 Return one JSON object only.
 
 The top-level JSON object must contain exactly these fields:

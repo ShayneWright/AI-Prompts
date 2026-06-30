@@ -58,7 +58,7 @@ Field requirements:
 - title: Publish-ready blog title.
 - slug: URL-friendly lowercase slug using hyphens only. Use only lowercase letters, numbers, and hyphens. Do not use spaces, underscores, punctuation, or special characters.
 - excerpt: 1-2 sentence blog summary for Wix.
-- body: Full 800-1200 word blog article in plain text with clear headings and paragraphs. Use practical headings, short paragraphs, and clear next steps. Do not use markdown formatting.
+- body: Full 800-1200 word blog article in plain text. Use plain text headings, short paragraphs, and clear next steps. Do not use Markdown, bold formatting, Markdown links, HTML, bullets with special formatting, or code-style formatting. If a URL is needed, write it as plain text only.
 - seoTitle: Search-friendly title, maximum 60 characters.
 - seoDescription: Search-friendly meta description, maximum 160 characters.
 - hashtags: 3-6 lowercase keyword strings without the # symbol.
@@ -91,7 +91,7 @@ Safety rules:
 Before responding, check that:
 - The response is valid JSON.
 - The response contains exactly the required fields and no extra fields.
-- The body is 800-1200 words.
+- The body contains no Markdown syntax and is 800-1200 words.
 - seoTitle is 60 characters or fewer.
 - seoDescription is 160 characters or fewer.
 - hashtags contains 3-6 lowercase strings without # symbols.

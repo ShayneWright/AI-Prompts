@@ -59,6 +59,8 @@ Use this exact JSON structure:
   "title": "",
   "slug": "",
   "excerpt": "",
+  "memberId": "750d43e7-68ee-498f-b52d-cc801f06f5e4",
+  "language": "en",
   "richContent": {
     "nodes": []
   },

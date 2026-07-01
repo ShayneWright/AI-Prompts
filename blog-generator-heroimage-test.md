@@ -18,6 +18,21 @@ Do not include any text before or after the JSON.
 Use the submitted topic, audience, service, location, business type, main angle, suggested keyword, internal page, preferred tone, image style, call to action, and any other form details provided by Zapier.
 
 ## Output Rules
+## Critical Output Rule
+
+Your entire response must be one valid raw JSON object and nothing else.
+
+Do not include markdown formatting.
+Do not include ```json or closing code fences.
+Do not include comments.
+Do not include explanations.
+Do not include any text before or after the JSON.
+Do not include trailing commas.
+Escape all quotation marks inside text values.
+Use double quotes for all JSON keys and string values.
+The first character of the response must be {
+The last character of the response must be }
+
 ## Strict JSON Formatting Rules
 
 Return only machine-readable JSON.
@@ -157,6 +172,7 @@ Create a 1200x628 professional blog header image showing a modern small business
 7. Keep formatting simple and reliable.
 8. Do not include a hero image in richContent.
 9. Do not include an IMAGE node in richContent.
+10. When writing article text inside JSON fields, escape any quotation marks that appear inside the text. Avoid using unnecessary quotation marks inside article content.
 
 ## Wix RichContent Paragraph Format
 

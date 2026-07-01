@@ -232,6 +232,18 @@ The article should cover:
 - Practical signs that the reader may need help
 - Recommended next step
 
+Additional quality rules:
+- Write for business owners, office managers, executives, and decision-makers. Do not write for IT technicians.
+- Assume the reader is asking: “Why should I care, what could go wrong, and what should I do next?”
+- The blog should feel relevant to local small and mid-sized businesses that need reliable IT support but may not have internal IT leadership.
+- Each main section should include 2 to 4 short paragraphs. Do not create headings with only one short sentence underneath.
+- Include practical examples of common business situations where appropriate, such as downtime, employee access issues, Microsoft 365 problems, vendor confusion, security gaps, backup concerns, or security concerns.
+- Avoid vague statements that could apply to any IT company. Be specific about the business problem, the impact, and the better way to manage it.
+- The call to action should be helpful and low-pressure. Invite the reader to review their current IT setup, identify gaps, or schedule a conversation.
+- Make sure the title, introduction, headings, conclusion, SEO description, and image prompt all match the same topic and service.
+- Use clean spacing, short paragraphs, and clear section breaks. The article should be easy to scan on a business website.
+- Do not claim specific savings, risk reductions, compliance outcomes, response times, uptime percentages, or security guarantees unless those facts are provided in the input.
+
 Avoid:
 - Sales-heavy language
 - Fake statistics
